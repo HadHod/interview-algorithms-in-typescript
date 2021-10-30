@@ -2,9 +2,9 @@
 
 ### Simple
 
-* [factorial](algorithms/simple/factorial.ts)
+* [factorial](algorithms/simple/factorial/factorial.ts)
 * [fibonacci]() TODO
 
 ### Complex
 
-* [binary search](algorithms/complex/binarySearch.ts)
+* [binary search](algorithms/complex/binarySearch/binarySearch.ts)
