@@ -13,7 +13,7 @@ export function binarySearch(list: number[], element: number): number {
   let max: number = list.length - 1;
 
   while (min <= max) {
-    const mid: number = Math.floor((max - min) / 2);
+    const mid: number = Math.floor((max - min) / 2) + min;
 
     if (element === list[mid]) {
       return mid;
