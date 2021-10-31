@@ -13,10 +13,6 @@ export function factorial(num: number): number {
 }
 
 export function factorialWhileLoop(num: number): number {
-  if (num === 0) {
-    return 1;
-  }
-
   if (num < 0) {
     return -1;
   }
