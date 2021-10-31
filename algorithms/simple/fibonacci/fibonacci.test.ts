@@ -1,6 +1,6 @@
 import { fibonacci } from './fibonacci';
 
-describe('factorial', () => {
+describe('fibonacci', () => {
   test('should return 0', () => {
     expect(fibonacci(0)).toBe(0);
   });

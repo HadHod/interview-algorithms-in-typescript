@@ -6,8 +6,7 @@
 * [fibonacci](algorithms/simple/fibonacci/fibonacci.ts)
 * [longest word](algorithms/simple/longestWord/longestWord.ts)
 * [index of](algorithms/simple/indexOf/indexOf.ts)
-* [is palindrome (TODO)]()
-* [sum of two (TODO)]()
+* [two sum](algorithms/simple/twoSum/twoSum.ts)
 
 ### Complex
 

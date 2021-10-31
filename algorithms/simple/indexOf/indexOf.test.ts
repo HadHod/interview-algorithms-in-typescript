@@ -1,6 +1,6 @@
 import { indexOf } from './indexOf';
 
-describe('factorial', () => {
+describe('indexOf', () => {
   test('should return 0', () => {
     expect(indexOf('hello world', 'a')).toBe(-1);
   });

@@ -1,6 +1,6 @@
 import { longestWord } from './longestWord';
 
-describe('factorial', () => {
+describe('longestWord', () => {
   test('should return 0', () => {
     expect(longestWord('')).toBe(0);
   });

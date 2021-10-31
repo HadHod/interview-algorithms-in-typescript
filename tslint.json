@@ -4,6 +4,14 @@
     "tslint:recommended"
   ],
   "jsRules": {},
-  "rules": {},
+  "rules": {
+    "semi": [
+      "error",
+      "always",
+      {
+        "omitLastInOneLineBlock": true
+      }
+    ]
+  },
   "rulesDirectory": []
 }
