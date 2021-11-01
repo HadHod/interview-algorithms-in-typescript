@@ -1,5 +1,5 @@
-export function twoSum(numbers: number[], sum: number): any {
-  const previousValues: any = {};
+export function twoSum(numbers: number[], sum: number): [number, number] {
+  const previousValues: { [key: number]: number } = {};
   for (let i=0; i<numbers.length; i++) {
     const neededValue: number = sum - numbers[i];
     const index: number = previousValues[neededValue];
@@ -10,4 +10,6 @@ export function twoSum(numbers: number[], sum: number): any {
 
     previousValues[numbers[i]] = i;
   }
+
+  return [-1, -1];
 }
