@@ -11,7 +11,8 @@
 ### Complex
 
 * [binary search](algorithms/complex/binarySearch/binarySearch.ts)
-* [first non repeating character (TODO)]()
+* [first non repeating character (TODO)](algorithms/complex/firstNonRepeatingCharacter/firstNonRepeatingCharacter.ts)
+* [first duplicate (TODO)]()
 * [matching parenthesis (TODO)]()
 * [longest palindromic substring in a string (TODO)]()
 * [reversing a linked list (TODO)]()
