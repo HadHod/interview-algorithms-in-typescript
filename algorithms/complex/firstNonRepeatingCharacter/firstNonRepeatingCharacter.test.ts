@@ -1,12 +1,12 @@
 import { firstNonRepeatingCharacter } from './firstNonRepeatingCharacter';
 
-xdescribe('firstNonRepeatingCharacter', () => {
+describe('firstNonRepeatingCharacter', () => {
   test('should return b', () => {
     expect(firstNonRepeatingCharacter('aaabcccdeeef')).toBe('b');
   });
 
   test('should return c', () => {
-    expect(firstNonRepeatingCharacter('abcbad')).toBe('b');
+    expect(firstNonRepeatingCharacter('abcbad')).toBe('c');
   });
 
   test('should return _', () => {
