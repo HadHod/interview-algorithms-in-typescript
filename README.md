@@ -13,7 +13,7 @@
 
 * [binary search](algorithms/complex/binarySearch/binarySearch.ts)
 * [first non repeating character](algorithms/complex/firstNonRepeatingCharacter/firstNonRepeatingCharacter.ts)
-* [matching parenthesis (TODO)](algorithms/complex/matchingParethesis/matchingParethesis.ts)
+* [matching parenthesis (TODO)](algorithms/complex/matchingParenthesis/matchingParenthesis.ts)
 * [longest palindromic substring in a string (TODO)](algorithms/complex/longestPalindromicSubstringInString/longestPalindromicSubstringInString.ts)
 * [reversing a linked list (TODO)](algorithms/complex/reversingLinkedList/reversingLinkedList.ts)
 * [depth first search (TODO)](algorithms/complex/depthFirstSearch/depthFirstSearch.ts)
