@@ -19,3 +19,5 @@
 * [depth first search (TODO)](algorithms/complex/depthFirstSearch/depthFirstSearch.ts)
 * [breadth first search (TODO)](algorithms/complex/breadthFirstSearch/breadthFirstSearch.ts)
 * [hash table (TODO)](algorithms/complex/hashTable/hashTable.ts)
+* [pascal triangle (TODO)](algorithms/complex/pascalTriangle/pascalTriangle.ts)
+* [sieve of eratosthenes (TODO)](algorithms/complex/sieveOfEratosthenes/sieveOfEratosthenes.ts)
