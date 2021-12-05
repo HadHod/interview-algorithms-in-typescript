@@ -21,3 +21,7 @@
 * [hash table (TODO)](algorithms/complex/hashTable/hashTable.ts)
 * [pascal triangle (TODO)](algorithms/complex/pascalTriangle/pascalTriangle.ts)
 * [sieve of eratosthenes (TODO)](algorithms/complex/sieveOfEratosthenes/sieveOfEratosthenes.ts)
+
+### TODO
+
+* add performance measurement
