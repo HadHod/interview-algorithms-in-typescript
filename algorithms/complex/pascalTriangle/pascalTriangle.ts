@@ -1,21 +1,23 @@
 export function pascalTriangle(level: number): number[] {
-  throw new Error('Not implemented');
+  if (level < 1) {
+    return [];
+  }
+
+  const generatePascal: (l: number[]) => number[] = (l: number[]) => {
+    if (l.length === 0 || l.length === 1) {
+      return [];
+    }
+
+    const [head, ...rest] = l;
+    return [head + rest[0], ...generatePascal(rest)];
+  }
+
+  const run: any = (lvl: number, result: number[]) => {
+    if (lvl === 1) {
+      return result;
+    }
+    return run(lvl - 1, [1, ...generatePascal(result), 1]);
+  }
+
+  return run(level, [1]);
 }
-
-// def pascal(n: Int): List[Int] = {
-
-//   if (n < 1) return List()
-
-//   def generatePascal(l: List[Int]): List[Int] = l match {
-//       case Nil      => Nil
-//       case h :: Nil => Nil
-//       case h :: t   => h + t.head :: generatePascal(t)
-//   }
-
-//   def run(level: Int, result: List[Int]): List[Int] = level match {
-//       case 1 => result
-//       case n => run(n - 1, 1 :: generatePascal(result) ::: List(1))
-//   }
-
-//   run(n, List(1))
-// }
