@@ -18,6 +18,5 @@
 * [reversing a linked list](algorithms/complex/reversingLinkedList/reversingLinkedList.ts)
 * [depth first search (TODO)](algorithms/complex/depthFirstSearch/depthFirstSearch.ts)
 * [breadth first search (TODO)](algorithms/complex/breadthFirstSearch/breadthFirstSearch.ts)
-* [hash table (TODO)](algorithms/complex/hashTable/hashTable.ts)
 * [pascal triangle](algorithms/complex/pascalTriangle/pascalTriangle.ts)
 * [sieve of eratosthenes](algorithms/complex/sieveOfEratosthenes/sieveOfEratosthenes.ts)
