@@ -1,23 +1,15 @@
 import { firstDuplicate } from './firstDuplicate';
 
+const testData: string[][] = [
+  ['aaabcccdeeef', 'a'],
+  ['aba', 'a'],
+  ['abcbd', 'b'],
+  ['abcdefghij', '_'],
+  ['', '_'],
+];
+
 describe('firstDuplicate', () => {
-  test('should return a', () => {
-    expect(firstDuplicate('aaabcccdeeef')).toBe('a');
-  });
-
-  test('should return a', () => {
-    expect(firstDuplicate('aba')).toBe('a');
-  });
-
-  test('should return b', () => {
-    expect(firstDuplicate('abcbd')).toBe('b');
-  });
-
-  test('should return _', () => {
-    expect(firstDuplicate('abcdefghij')).toBe('_');
-  });
-
-  test('should return _ for empty string', () => {
-    expect(firstDuplicate('')).toBe('_');
+  test.each(testData)('firstDuplicate(%i) === %i', (a, expected) => {
+    expect(firstDuplicate(a)).toBe(expected);
   });
 });
